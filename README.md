@@ -1,3 +1,6 @@
+# Site in Progress
+Still working on it. Redirection Issue atm.
+
 # Personal Portfolio ⚡
 
 > A clean, beautiful, ambient portfolio template for Software Developers!
