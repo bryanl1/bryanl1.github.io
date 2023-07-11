@@ -1,4 +1,4 @@
-# Site in Progress
+# Bryan's Personal Site
 
 # Personal Portfolio ⚡
 
