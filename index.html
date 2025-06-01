@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>bryan | site</title>
-    <link rel="icon" type="image" href="./assets/favicon.png">
+    <!-- <link rel="icon" type="image" href="./assets/favicon.png"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -29,24 +29,83 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
     </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <!-- <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a> -->
+    <!-- <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a> -->
+    <!-- <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a> -->
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
-        <h1>Site currently under reconstruction...</h1>
-        <h1>Bryan.</h1>
-        <h2>Developer / Game Designer / Builder</h2>
+        <!-- <h1>Site currently under reconstruction...</h1> -->
+        <h1>Bryan Linares</h1>
+        <h2>Software and Hardware Engineer</h2>
+
         <div id="menu">
             <a onclick="showabout()">about</a>
             <a onclick="showwork()">work</a>
             <a onclick="showcontact()">contact</a>
         </div>
+        <div class="intro" >I'm Bryan, currently based in Los Angeles. I'm completing a MS in Computer Science and hold a BS in Computer Engineering from California State University, Long Beach.
+            <p>
+                I have a love of learning and I'm a gamer and film-lover at heart. So work that crosses creativity, interactivity, education, storytelling, or graphics, is what I enjoy most. Among other things, I have experience in graphics programming in C++ using OpenGL, machine learning and backend in Python with Pytorch and Flask/FastAPI, Xilinx FPGA programming in Verilog, and embedded systems programming in C on ARM Cortex-M microcontrollers, and some compiler theory study in Java.
+            </p>
+            <p>
+                In my free time, I write a lot. I'll get that novel out someday.
+            </p>
+        </div>
+        <div id="projects">
+
+            <h2>Selected Projects</h2>
+            <!-- <p>I'm currently working on a few projects, including this website.</p> -->
+        <div id="project-cards">
+                <div class="project-card">3D Render Engine<br>
+                    <span class="project-desc">
+                        (C++, OpenGL, GLSL, and SFML) OpenGL based 3D render engine. It supports basic rendering and animation of 3D
+                        models, textures, and lighting effects with interaction and sound. With cel shading, and shader effects.
+                    </span>
+                    <button class="btn_one"> <a href="https://github.com/bryanl1/3dland"> Github</a> </button>
+                </div>
+                
+                <div class="project-card">Autonomous Trash Robot<br>
+                    <span class="project-desc">(C,ARM,C++,Linux,Electronics) Capstone project, an extensive autonavigating robot, using
+                        computer vision, microcontrollers, a SBC, and a 3D camera to pick up litter</span>
+                    <button class="btn_one"> <a href="https://github.com/bryanl1/RollingArmRobot/"> Github</a> </button>
+                </div>
+                
+                <div class="project-card">Bugfixhound<br>
+                    <span class="project-desc">A full stack bug tracking application.
+                        (Python, FastAPI, Docker) Frontend using Bootstrap and Angular, backend using Python and FastAPI, with a SQLite
+                        database. Once hosted on Fly.io using Docker.
+                    </span>
+                    <button class="btn_one"> <a href="https://github.com/bryanl1/bugfixhound/"> Github</a> </button>
+                </div>
+                
+                <div class="project-card">GBRains: Extended MIPS CPU<br><span class="project-desc">A MIPS32 compliant CPU with SIMD
+                        extensions written in Verilog</span>
+                    <button class="btn_one"> <a href="https://github.com/bryanl1/GBRAINS_CPU/"> Github</a> </button>
+                </div>
+                
+                <div class="project-card">SIMPLE Interpreted language<br><span class="project-desc">(Java, ATNLR) A programming language spec to implement a calculator program</span>
+                    <button class="btn_one"> <a href="https://github.com/bryanl1/SIMPLE-Interpreted-Language/"> Github</a> </button>
+                </div>
+                
+                <div class="project-card">Crime Stats Neural Networks<br><span class="project-desc"> Taking a real world dataset, ran autoencoder models to make visualizations and conclusions about geographic city safety and crime rates</span>
+                    <button class="btn_one"> <a href="https://github.com/bryanl1/pattern-recognition/"> Github</a> </button>
+                </div>
+
+        </div>
+
+        </div>
+
+        <div id="resume">
+            <p>Feel free to check out my resume and connect with me on social media! I'm always happy to chat, check out something cool, or answer any questions.</p>
+            <button class="btn_one" ><a href="./assets/res525.pdf" target="_blank" style="color: inherit; text-decoration: none">View
+                    Resume</a></button>
+        </div>
+
         <table>
             <tr>
                 <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"
                         href="https://www.linkedin.com/in/bryandlinares"><i class="fab fa-linkedin"></i></a></td>
-                <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"
-                        href="https://threads.net/"><i class="fab fa-twitter"></i></a></td>
+                <!-- <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"
+                        href="https://threads.net/"><i class="fab fa-twitter"></i></a></td> -->
                 <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"
                         href="https://instagram.com/brydlina"><i class="fab fa-instagram"></i></a></td>
                 <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"
@@ -68,7 +127,7 @@
                 <div><i class="fas fa-circle"></i>&nbsp;Java</div>
                 <div><i class="fas fa-circle"></i>&nbsp;Game Design</div>
             </div>
-            <button class="btn_one"><a href="./assets/Resume.pdf" target="_blank" style="color: inherit; text-decoration: none">View
+            <button class="btn_one"><a href="./assets/res.pdf" target="_blank" style="color: inherit; text-decoration: none">View
                     Resume</a></button>
         </section>
     </div>
